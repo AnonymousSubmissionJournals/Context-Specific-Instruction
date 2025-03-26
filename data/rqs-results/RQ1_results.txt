@@ -1,0 +1,131 @@
+Analyzing Correctness Data...
+
+Analyzing Time Data...
+
+Correctness Results:
+Group 1 Friedman: {'χ²': 4.230769230769238, 'p': 0.5166916593078766}
+Group 1 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([1.        , 1.        , 0.78649604, 0.78649604, 1.        ]), 'effect_sizes': [-0.23570226039551584, 0.43259045634870014, 0.43259045634870014, 0.43259045634870014, 0.0]}
+Group 2 Friedman: {'χ²': 3.0851063829787204, 'p': 0.686866708451628}
+Group 2 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([0.78649604, 1.        , 1.        , 1.        , 1.        ]), 'effect_sizes': [-0.4242640687119285, 0.1916629694999819, 0.0, 0.21081851067789203, 0.0]}
+Group 3 Friedman: {'χ²': 3.8135593220338913, 'p': 0.5765589657739507}
+Group 3 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([1.        , 1.        , 0.89856247, 1.        , 1.        ]), 'effect_sizes': [0.21629522817435, 0.6666666666666666, 0.6666666666666666, 0.21629522817435, 0.21629522817435]}
+Group 4 Friedman: {'χ²': 12.966101694915238, 'p': 0.02369851118052858}
+Group 4 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([0.29390861, 0.07152939, 0.29390861, 0.07152939, 0.12673659]), 'effect_sizes': [1.1028219331407116, 1.4696938456699074, 1.1028219331407116, 1.4696938456699074, 1.1028219331407116]}
+Between Groups T0: {'H': 0.2276923076923174, 'p': 0.9729996547114717}
+
+Between Groups T0 Pairs:
+G1 vs G2: adj_p=1.000, d=-0.13
+G1 vs G3: adj_p=1.000, d=0.00
+G1 vs G4: adj_p=1.000, d=0.07
+G2 vs G3: adj_p=1.000, d=0.13
+G2 vs G4: adj_p=1.000, d=0.20
+G3 vs G4: adj_p=1.000, d=0.07
+Between Groups T1: {'H': 9.128535353535359, 'p': 0.027629863543129563}
+
+Between Groups T1 Pairs:
+G1 vs G2: adj_p=1.000, d=0.05
+G1 vs G3: adj_p=1.000, d=-0.46
+G1 vs G4: adj_p=0.097, d=-1.34
+G2 vs G3: adj_p=1.000, d=-0.52
+G2 vs G4: adj_p=0.061, d=-1.42
+G3 vs G4: adj_p=0.782, d=-0.75
+Between Groups T2: {'H': 4.025094017094019, 'p': 0.25876714786297916}
+
+Between Groups T2 Pairs:
+G1 vs G2: adj_p=1.000, d=0.11
+G1 vs G3: adj_p=1.000, d=-0.22
+G1 vs G4: adj_p=0.653, d=-0.80
+G2 vs G3: adj_p=1.000, d=-0.32
+G2 vs G4: adj_p=0.382, d=-0.92
+G3 vs G4: adj_p=1.000, d=-0.56
+Between Groups T3: {'H': 2.7229813664596283, 'p': 0.43633596891994075}
+
+Between Groups T3 Pairs:
+G1 vs G2: adj_p=1.000, d=0.21
+G1 vs G3: adj_p=1.000, d=-0.22
+G1 vs G4: adj_p=1.000, d=-0.52
+G2 vs G3: adj_p=1.000, d=-0.43
+G2 vs G4: adj_p=0.782, d=-0.75
+G3 vs G4: adj_p=1.000, d=-0.29
+Between Groups T4: {'H': 4.699378881987597, 'p': 0.19518081056579703}
+
+Between Groups T4 Pairs:
+G1 vs G2: adj_p=1.000, d=0.00
+G1 vs G3: adj_p=1.000, d=0.21
+G1 vs G4: adj_p=0.653, d=-0.80
+G2 vs G3: adj_p=1.000, d=0.21
+G2 vs G4: adj_p=0.653, d=-0.80
+G3 vs G4: adj_p=0.257, d=-1.06
+Between Groups T5: {'H': 4.106811145510841, 'p': 0.2501590448753849}
+
+Between Groups T5 Pairs:
+G1 vs G2: adj_p=1.000, d=-0.13
+G1 vs G3: adj_p=1.000, d=-0.13
+G1 vs G4: adj_p=0.498, d=-0.91
+G2 vs G3: adj_p=1.000, d=0.00
+G2 vs G4: adj_p=0.782, d=-0.75
+G3 vs G4: adj_p=0.782, d=-0.75
+
+Time Results:
+Group 1 Friedman: {'χ²': 13.938775510204067, 'p': 0.016003035024783042}
+Group 1 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([0.2734375 , 0.01953125, 0.01953125, 0.13671875, 0.7421875 ]), 'effect_sizes': [-1.1783149559538186, -1.5606052802118497, -1.654757501106025, -1.4468504264781235, -0.7161325117371684]}
+Group 2 Friedman: {'χ²': 6.571428571428555, 'p': 0.25451352208472416}
+Group 2 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([1.        , 0.24414062, 0.37109375, 0.37109375, 0.1953125 ]), 'effect_sizes': [-0.20871187779651867, -0.7066080944240235, -0.7682045741673907, -0.905636462011033, -0.93807511360601]}
+Group 3 Friedman: {'χ²': 8.727598566308227, 'p': 0.12043518676036132}
+Group 3 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([0.390625  , 0.13671875, 0.2734375 , 0.2734375 , 0.01953125]), 'effect_sizes': [-0.9436010534888501, -0.9356266427546831, -0.9298330627264095, -0.9612966009549103, -1.4544369472034444]}
+Group 4 Friedman: {'χ²': 20.928571428571416, 'p': 0.0008356196100740315}
+Group 4 Posthoc: {'comparisons': ['T0 vs T1', 'T0 vs T2', 'T0 vs T3', 'T0 vs T4', 'T0 vs T5'], 'p_values': array([0.0390625 , 0.01953125, 0.01953125, 0.00976562, 0.00976562]), 'effect_sizes': [-2.0072431564436886, -2.2691409986843767, -2.3953008962836075, -2.7805749980227534, -2.265618923458635]}
+Between Groups T0: {'H': 1.652271704903299, 'p': 0.6475964826101981}
+
+Between Groups T0 Pairs:
+G1 vs G2: adj_p=1.000, d=0.50
+G1 vs G3: adj_p=1.000, d=0.27
+G1 vs G4: adj_p=1.000, d=0.14
+G2 vs G3: adj_p=1.000, d=-0.30
+G2 vs G4: adj_p=1.000, d=-0.39
+G3 vs G4: adj_p=1.000, d=-0.13
+Between Groups T1: {'H': 7.462684349344318, 'p': 0.05852504249981457}
+
+Between Groups T1 Pairs:
+G1 vs G2: adj_p=1.000, d=-0.37
+G1 vs G3: adj_p=1.000, d=-0.05
+G1 vs G4: adj_p=0.089, d=1.19
+G2 vs G3: adj_p=1.000, d=0.25
+G2 vs G4: adj_p=0.278, d=1.26
+G3 vs G4: adj_p=0.390, d=0.93
+Between Groups T2: {'H': 2.920467836257302, 'p': 0.4040507161295347}
+
+Between Groups T2 Pairs:
+G1 vs G2: adj_p=1.000, d=-0.08
+G1 vs G3: adj_p=1.000, d=-0.12
+G1 vs G4: adj_p=0.565, d=0.82
+G2 vs G3: adj_p=1.000, d=-0.04
+G2 vs G4: adj_p=1.000, d=0.63
+G3 vs G4: adj_p=1.000, d=0.66
+Between Groups T3: {'H': 9.513134186818405, 'p': 0.023192044459812853}
+
+Between Groups T3 Pairs:
+G1 vs G2: adj_p=1.000, d=-0.24
+G1 vs G3: adj_p=1.000, d=-0.44
+G1 vs G4: adj_p=0.120, d=1.14
+G2 vs G3: adj_p=1.000, d=-0.23
+G2 vs G4: adj_p=0.096, d=1.23
+G3 vs G4: adj_p=0.120, d=1.25
+Between Groups T4: {'H': 8.001043148411568, 'p': 0.045990151875029174}
+
+Between Groups T4 Pairs:
+G1 vs G2: adj_p=1.000, d=0.09
+G1 vs G3: adj_p=1.000, d=-0.41
+G1 vs G4: adj_p=0.148, d=1.19
+G2 vs G3: adj_p=1.000, d=-0.47
+G2 vs G4: adj_p=1.000, d=0.99
+G3 vs G4: adj_p=0.048, d=1.67
+Between Groups T5: {'H': 11.777691966648064, 'p': 0.008184818880383138}
+
+Between Groups T5 Pairs:
+G1 vs G2: adj_p=1.000, d=0.82
+G1 vs G3: adj_p=0.355, d=0.76
+G1 vs G4: adj_p=0.005, d=1.59
+G2 vs G3: adj_p=1.000, d=-0.05
+G2 vs G4: adj_p=0.785, d=0.79
+G3 vs G4: adj_p=0.107, d=0.84
